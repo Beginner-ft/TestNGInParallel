@@ -40,10 +40,10 @@ pipeline {
       allowMissing: false,
       alwaysLinkToLastBuild: false,
       keepAll: true,
-      reportDir: 'reports',
+      reportDir: 'coverage',
       includes: '**/*, **/*.css',
       reportFiles: 'index.html',
-      reportName: "ExtentTest Report"
+      reportName: "HTML Report-Globomantics"
     ])
 	junit 'target/surefire-reports/junitreports/**/*.xml'
                 
