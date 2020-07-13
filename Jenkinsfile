@@ -40,7 +40,7 @@ pipeline {
       allowMissing: false,
       alwaysLinkToLastBuild: false,
       keepAll: true,
-      reportDir: 'coverage',
+      reportDir: 'reports',
       includes: '**/*, **/*.css',
       reportFiles: 'index.html',
       reportName: "HTML Report-Globomantics"
