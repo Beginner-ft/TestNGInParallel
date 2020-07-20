@@ -18,7 +18,7 @@ public class ExtentReport {
 		//String path=System.getProperty("user.dir") + "/reports/ " + "index.html";
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("Globmantic Automation Test Report");
-		reporter.config().setDocumentTitle("TestResults");
+		reporter.config().setDocumentTitle("Test Results");
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Tester", "XYZ");
 		return extent;
